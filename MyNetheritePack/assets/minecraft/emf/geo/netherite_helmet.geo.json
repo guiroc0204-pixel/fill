@@ -1,0 +1,118 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.helmet_netherite_armor",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "hat",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Armor_Helmet",
+					"parent": "hat",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Helmet",
+					"parent": "Armor_Helmet",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 23, -4], "size": [8, 9, 8], "inflate": 0.75, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Helmet_Parts",
+					"parent": "Helmet",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Helmet_Horns",
+					"parent": "Helmet_Parts",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Helmet_Left_Horn",
+					"parent": "Helmet_Horns",
+					"pivot": [-1.75, 33.75, -4.75],
+					"rotation": [-22.5, 27.5, 0],
+					"cubes": [
+						{"origin": [-6.85, 29.75, -8.75], "size": [5, 4, 9], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "Helmet_Left_Horn_II",
+					"parent": "Helmet_Left_Horn",
+					"pivot": [-5.75, 33.75, -8.75],
+					"rotation": [-32.5, -40, 0],
+					"cubes": [
+						{"origin": [-5.75, 30.75, -12.75], "size": [3, 3, 6], "uv": [0, 75]}
+					]
+				},
+				{
+					"name": "Helmet_Left_Horn_III",
+					"parent": "Helmet_Left_Horn_II",
+					"pivot": [-4.75, 30.75, -12.75],
+					"rotation": [-45, -15, -10],
+					"cubes": [
+						{"origin": [-4.75, 30.75, -18.75], "size": [2, 2, 6], "uv": [84, 65]}
+					]
+				},
+				{
+					"name": "Helmet_Right_Horn",
+					"parent": "Helmet_Horns",
+					"pivot": [1.75, 33.75, -4.75],
+					"rotation": [-22.5, -27.5, 0],
+					"cubes": [
+						{"origin": [1.85, 29.75, -8.75], "size": [5, 4, 9], "uv": [28, 17]}
+					]
+				},
+				{
+					"name": "Helmet_Right_Horn_II",
+					"parent": "Helmet_Right_Horn",
+					"pivot": [5.75, 33.75, -8.75],
+					"rotation": [-32.5, 40, 0],
+					"cubes": [
+						{"origin": [2.75, 30.75, -12.75], "size": [3, 3, 6], "uv": [76, 12]}
+					]
+				},
+				{
+					"name": "Helmet_Right_Horn_III",
+					"parent": "Helmet_Right_Horn_II",
+					"pivot": [4.75, 30.75, -12.75],
+					"rotation": [-45, 15, 10],
+					"cubes": [
+						{"origin": [2.75, 30.75, -18.75], "size": [2, 2, 6], "uv": [68, 84]}
+					]
+				},
+				{
+					"name": "Helmet_Ornaments",
+					"parent": "Helmet_Parts",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Helmet_Center_Ornament",
+					"parent": "Helmet_Ornaments",
+					"pivot": [0, 27, -6],
+					"rotation": [12.5, 0, 0]
+				},
+				{
+					"name": "Helmet_Ornament_X",
+					"parent": "Helmet_Center_Ornament",
+					"pivot": [0, 27, -6],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{"origin": [-6, 27, -6], "size": [6, 6, 3], "uv": [18, 76]}
+					]
+				}
+			]
+		}
+	]
+}
